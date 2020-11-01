@@ -1,0 +1,5 @@
+dist
+.nuxt
+coverage
+demo.js
+demo.js.map

@@ -1,0 +1,88 @@
+{
+  "name": "v-visible",
+  "version": "2.0.1",
+  "private": false,
+  "description": "Visible directive for Vue.js",
+  "keywords": [
+    "visible",
+    "vue",
+    "directive"
+  ],
+  "homepage": "https://github.com/andrewvasilchuk/v-visible#readme",
+  "bugs": {
+    "url": "https://github.com/andrewvasilchuk/v-visible/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewvasilchuk/v-visible.git"
+  },
+  "license": "MIT",
+  "author": "Andrew Vasilchuk <andrew.d.vasilchuk@gmail.com>",
+  "main": "dist/v-visible.js",
+  "unpkg": "dist/v-visible.min.js",
+  "module": "dist/v-visible.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "vetur"
+  ],
+  "scripts": {
+    "build": "rimraf dist/* && rollup -c build/rollup.config.prod.ts && npm run build:declaration",
+    "build:declaration": "tsc './src/index.ts' --outDir './dist' --declaration --emitDeclarationOnly",
+    "dev": "rollup -c build/rollup.config.dev.ts --watch",
+    "fmt": "npm run fmt:prettier && npm run fmt:package-json",
+    "fmt:package-json": "sort-package-json",
+    "fmt:prettier": "prettier --write './**/*.{js,ts,css,md}'",
+    "lint": "npm run lint:package-json && npm run lint:prettier && npm run lint:remark",
+    "lint:package-json": "sort-package-json --check",
+    "lint:prettier": "prettier --check ./**/*.*",
+    "lint:remark": "remark {.,.github}",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-transform-modules-umd": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@nuxt/types": "^2.14.6",
+    "@nuxtjs/module-test-utils": "^2.0.0-3",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "@types/jest": "^26.0.14",
+    "@types/lodash.flatten": "^4.4.6",
+    "@types/randomcolor": "^0.5.5",
+    "@vue/test-utils": "^1.1.0",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.4.0",
+    "lodash.flatten": "^4.4.0",
+    "nuxt": "^2.14.6",
+    "playwright": "^1.4.2",
+    "prettier": "^2.1.2",
+    "remark-cli": "^9.0.0",
+    "remark-lint": "^8.0.0",
+    "remark-preset-lint-recommended": "^5.0.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.28.2",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-serve": "^1.0.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "sort-package-json": "^1.46.0",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12",
+    "vue-typed-refs": "^1.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^2.6.x"
+  },
+  "vetur": {
+    "attributes": "vetur/vetur-attributes.json"
+  }
+}

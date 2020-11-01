@@ -1,0 +1,6 @@
+{
+  "v-visible": {
+    "global": true,
+    "description": "A directive that allows to visibility of an element."
+  }
+}
