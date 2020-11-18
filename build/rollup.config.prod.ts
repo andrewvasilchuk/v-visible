@@ -19,7 +19,7 @@ const FILES = [
   },
 ]
 const DIST_DIR = 'dist'
-const name = 'VAspectRatio'
+const name = 'VVisible'
 const external = ['vue']
 const globals = {
   vue: 'Vue',
