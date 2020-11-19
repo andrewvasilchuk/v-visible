@@ -2,6 +2,17 @@
 
 > Vue.js directive for setting visibility of an element
 
+[![BuildStatus](https://img.shields.io/github/workflow/status/andrewvasilchuk/v-visible/Integration)](https://github.com/andrewvasilchuk/v-visible/actions?query=workflow%3AIntegration)
+[![Version](https://img.shields.io/npm/v/v-visible)](https://www.npmjs.com/package/v-visible)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/v-visible)](https://bundlephobia.com/result?p=v-visible)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0a12c2d8dbd44f028aacddb254df983d)](https://www.codacy.com/gh/andrewvasilchuk/v-visible/dashboard?utm_source=github.com&utm_medium=referral&utm_content=andrewvasilchuk/v-visible&utm_campaign=Badge_Grade)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/andrewvasilchuk/v-visible.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrewvasilchuk/v-visible/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/andrewvasilchuk/v-visible.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/andrewvasilchuk/v-visible/context:javascript)
+[![codecov](https://codecov.io/gh/andrewvasilchuk/v-visible/branch/master/graph/badge.svg)](https://codecov.io/gh/andrewvasilchuk/v-visible)
+[![Downloads](https://img.shields.io/npm/dt/v-visible)](https://www.npmjs.com/package/v-visible)
+[![LastCommit](https://img.shields.io/github/last-commit/andrewvasilchuk/v-visible)](https://github.com/andrewvasilchuk/v-visible/commits/master)
+[![License](https://img.shields.io/npm/l/v-visible)](https://github.com/andrewvasilchuk/v-visible/blob/master/LICENSE)
+
 - [v-visible](#v-visible)
   - [Installation](#installation)
     - [Via NPM](#via-npm)
