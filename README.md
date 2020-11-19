@@ -136,7 +136,7 @@ module.exports = {
 ```
 
 ```js
-import Vue from 'vuex'
+import Vue from 'vue'
 
 export default Vue.extend({
   // ...
